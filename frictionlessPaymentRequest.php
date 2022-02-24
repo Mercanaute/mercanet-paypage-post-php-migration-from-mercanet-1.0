@@ -1,7 +1,7 @@
 <?php
 /*This file generates the payment request and sends it to the Mercanet server
 For more information on this use case, please refer to the following documentation:
-   
+
 Ce fichier génère la requête de paiement et l'envoie au serveur Mercanet
 Pour plus d'informations sur ce cas d'utilisation, veuillez consulter la documentation suivante :
 https://documentation.mercanet.bnpparibas.net/index.php?title=3-D_Secure */
@@ -12,7 +12,7 @@ include('Common/sealCalculationPaypagePost.php');
 include('Common/flatten.php');
 include('Common/transactionIdCalculation.php');
 
-//PAYMENT REQUEST
+//PAYMENT REQUEST - REQUETE DE PAIEMENT
 
 // parameters.php initializes some session data like $_SESSION['merchantId'], $_SESSION['secretKey'], $_SESSION['normalReturnUrl'] and $_SESSION["urlForPaymentInitialisation"]
 // You can change these values in parameters.php according to your needs and architecture
