@@ -52,6 +52,7 @@ The examples are configured to work with the transactionId (s10TransactionRefere
 
 These examples were validated on a WAMP server with PHP 7.3.12, and on a Linux/Debian server with nginx server and PHP 8.0.0.
 
+
 ### Documentation
 
 These code examples are based on our online documentation and on the migration guide to Mercanet V2 for merchants keeping their Mercanet V1 merchantId.
